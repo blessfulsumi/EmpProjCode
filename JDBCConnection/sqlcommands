@@ -1,0 +1,6 @@
+show databases;
+use employee;
+select * from employee.empdetail;
+select * from employee.empdup 
+where eid in
+(select eid from employee.empdetail where salary>25000);
