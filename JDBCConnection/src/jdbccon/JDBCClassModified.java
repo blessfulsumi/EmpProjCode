@@ -10,7 +10,7 @@ public class JDBCClassModified {
 			Class.forName("com.mysql.cj.jdbc.Driver"); // Method2: Registering the driver
 			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/employee", "root", "root");
 			Statement st=con.createStatement();
-						
+			ResultSet rs= st.executeQuery("select * from empdetail");			
 			//Insertion
 			
 			String query1="insert into empdetail(ename,edept,salary,hobby) values(?,?,?,?)";
