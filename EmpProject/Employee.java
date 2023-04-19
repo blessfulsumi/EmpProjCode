@@ -31,6 +31,7 @@ public class Employee{
 			obj.display(emp4);
 			
 			scanner.close();
+			//nothing
 		}	
 		public void show() {
 			System.out.println("Im show inside employee");
