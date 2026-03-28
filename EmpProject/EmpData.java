@@ -4,6 +4,7 @@ public class EmpData {
 	int eid;
 	String ename;
 	String dept;
+	//i'm inserted new
 	float salary;
 	
 	//Constructor overloading
